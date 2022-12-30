@@ -72,6 +72,8 @@ input:checked + span:before {
 `;
 
 chrome.management.getAll(extensions => {
+    var t = document.createElement("h1");
+    t.innerHTML = 'Extension manager'
     const table = document.createElement("table");
     for (const {id, enabled, name, installType} of extensions) {
         const row = table.appendChild(document.createElement("tr"));
