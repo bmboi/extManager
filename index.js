@@ -61,7 +61,7 @@ span:before {
   border-radius: 50%;
 }
 input:checked + span {
-  background-color: #bb86fc;
+  background-color: #0fa334;
 }
 input:focus + span {
   box-shadow: 0 0 1px #2196F3;
